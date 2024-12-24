@@ -1,0 +1,64 @@
+/*intro seciton styles*/
+.teams-container{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 40px;
+    padding-bottom: 3rem;
+}
+.intro-container h5{
+    text-decoration: underline;
+}
+.RM-container{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+}
+.VU-container{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+}
+.img-container{
+    max-width: 80%;
+    align-self: center;
+    padding: 1rem;
+}
+.team-info .btn{
+    align-self: center;
+}
+
+/*video styles*/
+.team-video-container{
+    margin: auto;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem; */
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+}
+.video-container{
+    height: 100%;
+    max-width: 100%;
+    /* display: flex;
+    flex-direction: column; */
+    padding: 2rem;
+}
+/* .video-desc{
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+} */
+.section-secondary{
+    background-color: #f5ebeb;
+}
+
+/*why join section styles*/
+
