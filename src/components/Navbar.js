@@ -1,13 +1,17 @@
-import "./Navbar.css"
-
+import "./NavbarStyles.css"
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
+
+import Img1 from "./images/Fluff_S_NT_NBG.png";
 
 const Navbar = () => {
     return (
         <div className = "header">
             <Link to="/">
+            <div className="logo">
+                <img className="logo-img" src={Img1} alt="Img1" />
                 <h1>SFURC</h1>
+            </div>
             </Link>
             <ul className="nav-menu">
                 <li>

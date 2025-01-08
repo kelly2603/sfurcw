@@ -3,30 +3,39 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 40px;
-    padding-bottom: 3rem;
+    grid-gap: 20px;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
 }
 .intro-container h5{
     text-decoration: underline;
 }
-.RM-container{
+.col-container {
     height: 100%;
-    max-width: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 1.2rem;
-}
-.VU-container{
-    height: 100%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 1.2rem;
+    align-items: center;
 }
 .img-container{
-    max-width: 80%;
     align-self: center;
-    padding: 1rem;
+    justify-self: center;
+    padding: 0.5rem;
+}
+.RM-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.VU-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.img {
+    max-width: 500px;
+    max-height: 360px;
 }
 .team-info .btn{
     align-self: center;
@@ -49,16 +58,35 @@
     flex-direction: column; */
     padding: 2rem;
 }
-/* .video-desc{
-    height: 100%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 1.2rem;
-} */
 .section-secondary{
     background-color: #f5ebeb;
 }
 
 /*why join section styles*/
+.skills-container {
+    margin: auto;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    padding-bottom: 1rem;
+}
+.skills-container p {
+    height: 8.5rem;
+}
 
+/*sponsors section styles*/
+.center{
+    align-items: center;
+    text-align: center;
+}
+.sponsors-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
+    justify-items: center;
+    gap: 0.5;
+}
+.sp{
+    text-align: center;
+}
