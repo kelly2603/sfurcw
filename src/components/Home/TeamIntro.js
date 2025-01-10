@@ -57,7 +57,7 @@ const TeamIntro = () => {
             <div className="team-video-container">
                 <div className="video-desc">
                     <h4>A video of what we do:</h4>
-                    <p>
+                    <p className="subtitle">
                         A peek into our Robomaster NA Recap
                     </p>
                 </div>
@@ -80,6 +80,7 @@ const TeamIntro = () => {
         {/* ================ Why join section =============== */}
         <div className="section-container center">
             <h4>Why join us?</h4>
+            <p className="subtitle">Learn valuable skills that are directly transferable to the industry</p>
             <div className="skills-container">
                 <div className="SW-container col-container">
                     <h5>SolidWorks</h5>
@@ -113,6 +114,7 @@ const TeamIntro = () => {
         {/* ================ Sponsors section =============== */}
         <div className="section-container center">
         <h4>Our Sponsors</h4>
+        <p className="subtitle">Thank you!</p>
         <div className="sponsors-container">
             <div className="sp">
                 <a href="https://humaninmotion.com/" target="_blank">

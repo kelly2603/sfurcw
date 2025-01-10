@@ -65,7 +65,7 @@
 /*why join section styles*/
 .skills-container {
     margin: auto;
-    padding: 1rem;
+    padding: 2rem;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 30px;
@@ -89,4 +89,9 @@
 }
 .sp{
     text-align: center;
+}
+.subtitle {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: #a09d9d;
 }
