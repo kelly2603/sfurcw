@@ -1,0 +1,32 @@
+.OBG-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    position: relative;
+}
+.OBG-container::before {
+    content: "";
+    position: absolute;
+    top: 4rem;
+    bottom: 4rem;
+    left: 50%;
+    width: 4px;
+    background-color: #FF4D4D;
+    transform: translateX(1.6rem);
+    z-index: 1;
+}
+.OBG-container .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.OBG-container .img {
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+}
+.OBG-container .desc-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}

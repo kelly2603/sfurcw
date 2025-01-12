@@ -1,52 +1,40 @@
 /*intro seciton styles*/
-.teams-container{
-    margin: auto;
+.RM-container{
+    margin-left: auto;
+    margin-right: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    padding: 1rem;
-    padding-bottom: 2rem;
-    padding-top: 2rem;
+    grid-gap: 2rem;
+    position: relative;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
-.intro-container h5{
-    text-decoration: underline;
+.RM-container::before {
+    content: "";
+    position: absolute;
+    top: 1rem;
+    bottom: 1rem;
+    left: 50%;
+    width: 4px;
+    background-color: #FF4D4D;
+    transform: translateX(-1.6rem);
+    z-index: 1;
 }
-.col-container {
-    height: 100%;
-    width: 100%;
+.RM-container .desc-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
+    text-align: left;
 }
-.img-container{
-    align-self: center;
-    justify-self: center;
-    padding: 0.5rem;
+.RM-container img {
+    max-width: 600px;
+    max-height: 440px;
 }
-.RM-container{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.VU-container{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-.img {
-    max-width: 500px;
-    max-height: 360px;
-}
-.team-info .btn{
-    align-self: center;
-}
+
 
 /*video styles*/
 .team-video-container{
     margin: auto;
-    /* display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 1rem; */
     text-align: center;
     align-items: center;
     padding: 1rem;
@@ -54,8 +42,6 @@
 .video-container{
     height: 100%;
     max-width: 100%;
-    /* display: flex;
-    flex-direction: column; */
     padding: 2rem;
 }
 .section-secondary{
@@ -73,6 +59,12 @@
 }
 .skills-container p {
     height: 8.5rem;
+}
+.skills-container img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    object-fit: cover;
 }
 
 /*sponsors section styles*/

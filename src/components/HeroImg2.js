@@ -2,15 +2,14 @@ import "./HeroImg2Styles.css"
 
 import React from 'react'
 
-const HeroImg2 =({text,heading}) => {
+const HeroImg2 =({heading, image}) => {
     return (
-        <div className="hero-img">
-            <div className="mask-img">
-                {/* <img className="bg-img" src={image} alt="Img1" /> */}
+        <div className="hero2">
+            <div className="mask-img2">
+                <img className="bg-img2" src={image} alt="Img1" />
             </div>
             <div className="heading">
                 <h1>{heading}</h1>
-                <p>{text}</p>
             </div>
         </div>
         

@@ -1,0 +1,19 @@
+.EX-container {
+    display: flex;
+    justify-content: center;
+}
+.EX-container h4 {
+    text-align: center;
+}
+.execs-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    justify-content: center;
+    align-items: center;
+    grid-gap: 1rem;
+}
+.execs-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+}

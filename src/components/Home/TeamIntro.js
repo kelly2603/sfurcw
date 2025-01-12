@@ -17,37 +17,27 @@ const TeamIntro = () => {
     <div className="main-container">
         {/* ================ Introduction section =============== */}
         <div className="section-container center">
-            <h4>What are the teams?</h4>
-            <div className="teams-container">
-
-                <div className="RM-container col-container">
-                    <div className="img-container">
-                        <img className="img" src={Img1} alt="Robomaster" />
-                    </div>
-                    <h5>Robomaster</h5>
+            
+            <div className="RM-container">
+                <div className="img-container">
+                    <img className="img" src={Img1} alt="Robomaster" />
+                </div>
+                <div className="desc-container">
+                    <h4>What is RoboMaster?</h4>
                     <p>
-                        RoboMaster is a robotics competition on projectile combat.
-                        Robots fire projectiles and attempt to hit plates on the opponent 
-                        robots and structures in order to win. These games requires both 
-                        teamwork and technical expertise in skills such as solid works to be successful.
+                    RoboMaster is a robotics competition that blends engineering, programming, and 
+                    competitive gameplay. Teams design, build, and program custom 
+                    robots that engage in dynamic battles on a specialized battlefield. 
+                    The objective is to score points by firing projectiles at opponent 
+                    robots and designated targets while protecting their own base.
+                    <br></br>
+                    <br></br>
+                    At the SFU Robotics Club, we combine expertise in mechanical design, 
+                    electronics, and software development to engineer robots for the
+                     RoboMaster competition. Join us as we shape an exciting future for our team!
                     </p>
                     <button className="btn">see more</button>
                 </div>
-
-                <div className="VU-container col-container">
-                    <div className="img-container">
-                        <img className="img" src={Img2} alt="VexU" />
-                    </div>
-                    <h5>VEX-U</h5>
-                    <p>
-                        Content goes here Content goes here Content goes here Content goes here
-                        Content goes here Content goes here Content goes here Content goes here
-                        Content goes here Content goes here Content goes here Content goes here
-                        Content goes here Content goes here Content goes here Content goes here
-                    </p>
-                    <button className="btn">see more</button>
-                </div>
-
             </div>
         </div>
 
@@ -109,6 +99,7 @@ const TeamIntro = () => {
                     <img className="img" src={Img5} alt="VexU" />
                 </div>
             </div>
+            <button className="btn">Join Now</button>
         </div>
 
         {/* ================ Sponsors section =============== */}
