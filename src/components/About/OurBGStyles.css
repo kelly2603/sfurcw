@@ -29,4 +29,8 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    justify-content: center;
+}
+.BG-container {
+    padding-bottom: 4rem;
 }

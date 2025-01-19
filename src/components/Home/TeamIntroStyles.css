@@ -4,10 +4,10 @@
     margin-right: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-gap: 2rem;
+    grid-gap: 3.5rem;
     position: relative;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
 }
 .RM-container::before {
     content: "";
@@ -17,18 +17,19 @@
     left: 50%;
     width: 4px;
     background-color: #FF4D4D;
-    transform: translateX(-1.6rem);
+    transform: translateX(-1.2rem);
     z-index: 1;
 }
 .RM-container .desc-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: flex-start;
     text-align: left;
 }
 .RM-container img {
-    max-width: 600px;
-    max-height: 440px;
+    max-width: 650px;
+    max-height: 460px;
 }
 
 
@@ -39,14 +40,18 @@
     align-items: center;
     padding: 1rem;
 }
+.team-video-container h4 {
+    color: #fff;
+}
+.team-video-container .subtitle {
+    color: #e9e2e2;
+}
 .video-container{
     height: 100%;
     max-width: 100%;
     padding: 2rem;
 }
-.section-secondary{
-    background-color: #f5ebeb;
-}
+
 
 /*why join section styles*/
 .skills-container {
@@ -81,9 +86,4 @@
 }
 .sp{
     text-align: center;
-}
-.subtitle {
-    font-size: 1.5rem;
-    font-style: italic;
-    color: #a09d9d;
 }

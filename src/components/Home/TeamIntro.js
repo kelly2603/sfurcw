@@ -35,6 +35,7 @@ const TeamIntro = () => {
                     At the SFU Robotics Club, we combine expertise in mechanical design, 
                     electronics, and software development to engineer robots for the
                      RoboMaster competition. Join us as we shape an exciting future for our team!
+                    
                     </p>
                     <button className="btn">see more</button>
                 </div>
@@ -42,30 +43,32 @@ const TeamIntro = () => {
         </div>
 
         {/* ================ Video section =============== */}
-        <div className="section-container section-secondary">
-            
-            <div className="team-video-container">
-                <div className="video-desc">
-                    <h4>A video of what we do:</h4>
-                    <p className="subtitle">
-                        A peek into our Robomaster NA Recap
-                    </p>
+        <div className="section-tertiary">
+            <div className="section-container">
+                <div className="team-video-container">
+                    <div className="video-desc">
+                        <h4>A video of what we do:</h4>
+                        <p className="subtitle">
+                            A peek into our Robomaster NA Recap
+                        </p>
+                    </div>
+                    <div className="video-container">
+                        <iframe 
+                            width="1080" 
+                            height="610" 
+                            src="https://www.youtube.com/embed/fKDmlxtG4wA?si=DfFzR2rNYtnHbJnC" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                    
                 </div>
-                <div className="video-container">
-                    <iframe 
-                        width="1080" 
-                        height="610" 
-                        src="https://www.youtube.com/embed/fKDmlxtG4wA?si=DfFzR2rNYtnHbJnC" 
-                        title="YouTube video player" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                        referrerpolicy="strict-origin-when-cross-origin" 
-                        allowfullscreen>
-                    </iframe>
-                </div>
-                
             </div>
         </div>
+        
 
         {/* ================ Why join section =============== */}
         <div className="section-container center">

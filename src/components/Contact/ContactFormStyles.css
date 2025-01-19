@@ -22,3 +22,6 @@ form input, form textarea{
     border-color: rgba(212, 212, 212, 0.325);
     color: #3b3a3a;
 }
+.footer p {
+    color: #fff;
+}

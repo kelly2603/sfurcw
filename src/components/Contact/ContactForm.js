@@ -5,7 +5,7 @@ const ContactForm = () => {
   return (
     <div className='main-container'>
         <div className='section-container'>
-            <h4>Contact Us</h4>
+            <h4>Let's get in touch</h4>
             <div className="form-container">
                 <form>
                     <label>Your Name</label>
@@ -16,7 +16,7 @@ const ContactForm = () => {
                     <input type="text"></input>
                     <label>Message</label>
                     <textarea rows="6" placeholder="Type your message here"/>
-                    <button className="btn">Submit</button>
+                    <button className="btn-secondary">Submit</button>
                 </form>
             </div>
         </div>

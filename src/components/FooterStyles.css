@@ -1,12 +1,17 @@
 .footer{
-    width: 100%;
-    height: 100%;
-    background-color: #000;
+    
+    background-color: #000000;
 }
-.footer-container{
+.footer-container {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.contacts-container{
     display: grid;
     padding: 2rem;
     grid-template-columns: repeat(2, 1fr);
+
     grid-gap: 40px;
 }
 .left{
@@ -14,6 +19,7 @@
     max-width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
     padding: 1rem;
 }
 
@@ -22,10 +28,17 @@
     max-width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 1rem;
 }
-.footer-container p{
+.contacts-container p{
     line-height: 30px;
     font-size: 1.2rem;
-    color: #db4a4a;
+    color: #FF4D4D;
+}
+.copyright-container p{
+    color: #737171;
+    display: flex;
+    justify-content: center;
 }

@@ -2,7 +2,7 @@ import "./NavbarStyles.css"
 import React, {useState} from "react";
 import { Link } from "react-router-dom";
 
-import Img1 from "./images/Fluff_S_NT_NBG.png";
+import Img1 from "./images/Fluff_S_NBG_White.png";
 
 const Navbar = () => {
     return (
