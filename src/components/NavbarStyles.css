@@ -20,12 +20,13 @@
     padding: 0 1rem;
 }
 .nav-menu li a {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 550;
     text-decoration: none;
     position: relative;
-    padding-bottom: 0.7rem;
+    padding-bottom: 0.5rem;
     color: #fff;
+    justify-self: center;
     
 }
 /* .nav-menu li a:hover{

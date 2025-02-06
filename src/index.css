@@ -11,7 +11,7 @@ body {
   background: #fcfbfb;
 }
 .section-container{
-  width: 80%;
+  width: 85%;
   margin: auto;
   padding: 3rem;
   padding-top: 5rem;
@@ -34,12 +34,14 @@ h1, h4 {
   text-decoration: none;
 }
 h4{
-  font-size: 3.2rem;
+  font-size: 3rem;
+  font-weight: 650;
   padding: 0.7rem;
 }
 h5{
   color: #564c4c;
   font-size: 2.3rem;
+  font-weight: 600;
   padding: 0.5rem;
 }
 p {

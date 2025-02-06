@@ -68,7 +68,6 @@ const TeamIntro = () => {
                 </div>
             </div>
         </div>
-        
 
         {/* ================ Why join section =============== */}
         <div className="section-container center">

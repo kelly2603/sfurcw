@@ -7,8 +7,8 @@
 .OBG-container::before {
     content: "";
     position: absolute;
-    top: 4rem;
-    bottom: 4rem;
+    top: 7rem;
+    bottom: 7rem;
     left: 50%;
     width: 4px;
     background-color: #FF4D4D;
