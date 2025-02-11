@@ -15,7 +15,6 @@ body {
   margin: auto;
   padding: 3rem;
   padding-top: 5rem;
-  padding-bottom: 5rem;
 }
 .section-secondary{
   background-color: #f6e5e5;
@@ -36,18 +35,18 @@ h1, h4 {
 h4{
   font-size: 3rem;
   font-weight: 650;
-  padding: 0.7rem;
+  padding: 0.3rem;
 }
 h5{
   color: #564c4c;
   font-size: 2.3rem;
   font-weight: 600;
-  padding: 0.5rem;
+  padding: 0.3rem;
 }
 p {
   color: #505050;
   font-size: 1.2rem;
-  padding: 0.5rem;
+  padding: 0.3rem;
 }
 .subtitle {
   font-size: 1.5rem;

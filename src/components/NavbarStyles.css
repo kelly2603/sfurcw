@@ -14,7 +14,6 @@
 }
 .nav-menu{
     display: flex;
-
 }
 .nav-menu li {
     padding: 0 1rem;
@@ -27,6 +26,7 @@
     padding-bottom: 0.5rem;
     color: #fff;
     justify-self: center;
+    vertical-align: middle;
     
 }
 /* .nav-menu li a:hover{

@@ -1,45 +1,33 @@
-.EX-container {
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-gap: 2rem;
-}
 .execs-container {
     display: grid;
-    grid-template-columns: repeat(2, minmax(300px, 1fr));
-    justify-content: center;
-    align-items: center;
-    grid-gap: 2rem;
-}
-.EX-container .desc-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
+    padding: 1rem;
+    margin: auto;
 }
 .execs-card {
     display: flex;
-    flex-direction: column;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 300px;
-    padding: 20px;
-    text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    align-items: center;
+    border: 1px solid #000000;
+    gap: 20px;
+    padding: 1rem;
 }
-.execs-card::before {
-    content: '';
-    display: block;
+
+.profile-placeholder {
     width: 100px;
     height: 100px;
-    background-color: #ddd; /* Placeholder color for the profile picture */
+    background-color: #ddd;
     border-radius: 50%;
-    margin: 0 auto 15px; /* Center and add spacing */
-  }
-  
-  /* Name Title */
-  .execs-card h5 {
-    font-size: 2rem;
+}
+.execs-card h5 {
+    font-size: 2.3rem;
     font-weight: bold;
     color: #333;
-  }
+    justify-self: left;
+    padding-bottom: 0;
+}
+.execs-card p {
+    font-size: 1.3rem;
+    justify-self: left;
+    padding-top: 0;
+}

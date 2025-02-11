@@ -5,6 +5,7 @@ import HeroImg2 from "../components/HeroImg2"
 import OurBG from "../components/About/OurBG"
 import Execs from '../components/About/Execs'
 import Img1 from "../components/About/about_images/IMG_2413.jpg"
+import Achievements from '../components/About/Achievements'
 
 const About = () => {
   return (
@@ -12,6 +13,7 @@ const About = () => {
       <Navbar />
       <HeroImg2 heading="ABOUT" image={Img1}/>
       <OurBG />
+      <Achievements />
       <Execs />
       <Footer />
     </div>
