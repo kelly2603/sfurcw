@@ -1,5 +1,6 @@
 import "./FooterStyles.css";
 import React from "react";
+import {FaDiscord, FaInstagram, FaYoutube} from "react-icons/fa";
 
 const Footer = () => {
     return(
@@ -12,14 +13,21 @@ const Footer = () => {
                                 <p>13450 102 Ave #250, <br></br> Surrey, BC, V3T 0A3</p>
                             </div>
                             <div className="email">
-                                <p>emailhere@sfu.ca</p>
+                                <p>sfurc@sfu.ca</p>
                             </div>
                         </div>
                     </div>
                     <div className="right">
                         <div className="social">
-                            <p>Discord</p>
-                            <p>Instagram</p>
+                            <a href="https://discord.com/invite/XsfVH5xZgH" target="_blank" rel="noopener noreferrer">
+                                <FaDiscord size={30} />
+                            </a>
+                            <a href="https://www.instagram.com/sfurobotics/" target="_blank" rel="noopener noreferrer">
+                                <FaInstagram size={30} />
+                            </a>
+                            <a href="https://www.youtube.com/@sfurobotics" target="_blank" rel="noopener noreferrer">
+                                <FaYoutube size={30} />
+                            </a>
                         </div>
                     </div>
                     
@@ -28,7 +36,6 @@ const Footer = () => {
                     <p> &copy; Copyright 2025 Simon Fraser Robotics Club</p>
                 </div>
             </div>
-            
         </div>
     )
 }

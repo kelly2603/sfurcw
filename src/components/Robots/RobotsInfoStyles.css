@@ -1,0 +1,34 @@
+.sentry-container{
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+    position: relative;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+.hero-container{
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+    position: relative;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+.standard-container{
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+    position: relative;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+.robot-container img {
+    max-width: 600px;
+    max-height: 450px;
+}

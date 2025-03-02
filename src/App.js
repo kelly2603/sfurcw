@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import "./index.css"
 import Home from "./routes/Home"
 import About from "./routes/About"
-import Teams from "./routes/Teams"
+import Robots from "./routes/Robots"
 import Contact from "./routes/Contact"
 
 
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/teams" element={<Teams />} />
+        <Route path="/robots" element={<Robots />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>

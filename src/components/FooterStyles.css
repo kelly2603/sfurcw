@@ -1,5 +1,4 @@
 .footer{
-    
     background-color: #000000;
 }
 .footer-container {
@@ -11,7 +10,6 @@
     display: grid;
     padding: 2rem;
     grid-template-columns: repeat(2, 1fr);
-
     grid-gap: 40px;
 }
 .left{
@@ -22,6 +20,11 @@
     align-items: center;
     padding: 1rem;
 }
+.social {
+    display: flex;
+    gap: 1rem;
+    color: #FF4D4D; 
+}
 
 .right{
     height: 100%;
@@ -29,7 +32,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     padding: 1rem;
 }
 .contacts-container p{
@@ -38,7 +40,7 @@
     color: #FF4D4D;
 }
 .copyright-container p{
-    color: #737171;
+    color: #616060;
     display: flex;
     justify-content: center;
 }
