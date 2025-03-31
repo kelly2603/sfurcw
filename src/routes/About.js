@@ -6,6 +6,7 @@ import OurBG from "../components/About/OurBG"
 import Execs from '../components/About/Execs'
 import Img1 from "../components/About/about_images/IMG_2413.jpg"
 import Achievements from '../components/About/Achievements'
+import Events from '../components/About/Events'
 
 const About = () => {
   return (
@@ -14,6 +15,7 @@ const About = () => {
       <HeroImg2 heading="ABOUT" image={Img1}/>
       <OurBG />
       {/* <Achievements /> */}
+      <Events />
       <Execs />
       <Footer />
     </div>

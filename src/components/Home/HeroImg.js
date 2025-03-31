@@ -9,7 +9,8 @@ const HeroImg = () => {
                 <img className="bg-img" src={Img1} alt="Img1" />
             </div>
             <div className="content">
-                <h1>SFU ROBOTICS CLUB</h1>
+                <h1>ASCENSION ROBOTICS</h1>
+                <h4>SFU RoboMaster</h4>
                 <p>Building the Future, One Robot at a Time</p>
             </div>
         </div>

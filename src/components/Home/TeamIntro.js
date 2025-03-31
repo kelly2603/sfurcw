@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./TeamIntroStyles.css";
 
 import Img1 from "./home_images/IMG_2375.jpg";
@@ -32,12 +33,12 @@ const TeamIntro = () => {
                     robots and designated targets while protecting their own base.
                     <br></br>
                     <br></br>
-                    At the SFU Robotics Club, we combine expertise in mechanical design, 
+                    At Ascension Robotics, we combine expertise in mechanical design, 
                     electronics, and software development to engineer robots for the
                      RoboMaster competition. Join us as we shape an exciting future for our team!
                     
                     </p>
-                    <button className="btn">see more</button>
+                    <Link to='/about' className="btn">see more</Link>
                 </div>
             </div>
         </div>
@@ -101,14 +102,14 @@ const TeamIntro = () => {
                     <img className="img" src={Img5} alt="VexU" />
                 </div>
             </div>
-            <button className="btn">Join Now</button>
+            <a href="https://forms.gle/92ASYhvcLMh2gy2E7" target="_blank" rel="noopener noreferrer" className="btn">Join Now</a>
         </div>
 
         {/* ================ Sponsors section =============== */}
         <div className="section-container center">
         <h4>Our Sponsors</h4>
-        <p className="subtitle">Thank you!</p>
-        <div className="sponsors-container">
+        <p className="subtitle">Email us at sfurc@sfu.ca to become the first to put your name here</p>
+        {/* <div className="sponsors-container">
             <div className="sp">
                 <a href="https://humaninmotion.com/" target="_blank">
                     <img src={Img6} alt="HumanInMotion" style={{ width: "300px", height: "auto" }} />
@@ -124,8 +125,8 @@ const TeamIntro = () => {
                     <img src={Img8} alt="Altium" style={{ width: "300px", height: "auto" }} />
                 </a>
             </div>
-        </div>
-        <button className="btn">Sign up to be one</button>
+        </div> */}
+        {/* <button className="btn">Sign up to be one</button> */}
     </div>
 
     </div>

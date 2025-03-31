@@ -1,34 +1,28 @@
-.sentry-container{
+.r-container{
     margin-left: auto;
     margin-right: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5rem;
     position: relative;
-    margin-bottom: 4rem;
-    margin-top: 4rem;
+    padding-bottom: 7rem;
+    padding-top: 7rem;
 }
-.hero-container{
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5rem;
-    position: relative;
-    margin-bottom: 4rem;
-    margin-top: 4rem;
+.r-container:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 20%;
+    height: 5px;
+    background-color: #FF4D4D;
+    transform: translateX(-50%);
+  }
+.r-container .image-container {
+    display: flex;
+    justify-content: center;
 }
-.standard-container{
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 5rem;
-    position: relative;
-    margin-bottom: 4rem;
-    margin-top: 4rem;
-}
-.robot-container img {
+.r-container img {
     max-width: 600px;
     max-height: 450px;
 }

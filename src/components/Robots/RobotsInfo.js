@@ -8,7 +8,7 @@ const RobotsInfo = () => {
         <div className='section-container'>
 
           <div className='robot-container'>
-            <div className='sentry-container'>
+            <div className='r-container'>
               <div className='desc-container'> 
                 <h4>Sentry Robot</h4>
                 <p>
@@ -23,7 +23,7 @@ const RobotsInfo = () => {
               </div>
             </div>
 
-            <div className='hero-container'>
+            <div className='r-container'>
               <div className='image-container'>
                 <img className="img" src={Img1} alt="Sentry" />
               </div>
@@ -39,7 +39,7 @@ const RobotsInfo = () => {
               
             </div>
 
-            <div className='standard-container'>
+            <div className='r-container'>
               <div className='desc-container'> 
                 <h4>Standard Robot</h4>
                 <p>
