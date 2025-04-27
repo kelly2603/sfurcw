@@ -58,12 +58,13 @@
     margin: auto;
     padding-top: 2rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
-    padding-bottom: 0;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    row-gap: 8rem;
+    padding-bottom: 4rem;
 }
 .skills-container p {
-    height: 8.5rem;
+    height: 10.5rem;
 }
 .skills-container img {
     width: 100%;
@@ -86,4 +87,7 @@
 }
 .sp{
     text-align: center;
+}
+.sponsor-main-container {
+    padding-bottom: 6rem;
 }
