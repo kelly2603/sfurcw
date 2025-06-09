@@ -9,7 +9,7 @@ const Robots = () => {
   return (
     <div>
         <Navbar />
-        <HeroImg2 heading="Robots" image={Img1}/>
+        <HeroImg2 heading="ROBOTS" image={Img1}/>
         <RobotsInfo />
         <Footer />
     </div>

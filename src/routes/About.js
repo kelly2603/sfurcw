@@ -16,7 +16,7 @@ const About = () => {
       <OurBG />
       {/* <Achievements /> */}
       <Events />
-      <Execs />
+      {/* <Execs /> */}
       <Footer />
     </div>
   )
