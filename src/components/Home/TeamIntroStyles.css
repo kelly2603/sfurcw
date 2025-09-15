@@ -129,8 +129,8 @@
   }
 
   .skills-container img {
-    height: 300px; /* smaller images */
-    width: 400px;
+    height: 363px; /* smaller images */
+    width: 500px;
   }
 
 }  
@@ -140,7 +140,7 @@
     }
 
     .skills-container img {
-        height: 150px;
-        width: 200px;
+        height: 218px;
+        width: 300px;
     }
 }

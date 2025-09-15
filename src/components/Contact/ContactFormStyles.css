@@ -3,28 +3,33 @@
     margin: auto;
     align-items: center;
 }
+
 .contact-container h4 {
     font-size: 3rem;
 }
+
 .form-container {
     background-color: #f5ebeb;
     width: 100%;
     margin: auto;
 }
-label{
+
+label {
     color: #FF4D4D;
     font-size: 1.6rem;
     font-weight: 500;
 }
-form{
-    display:flex;
+
+form {
+    display: flex;
     flex-direction: column;
     padding: 3rem 1rem;
     margin: auto;
     max-width: 80%;
-    
 }
-form input, form textarea{
+
+form input, 
+form textarea {
     margin-bottom: 0.6rem;
     padding: 10px 15px;
     font-size: 1.4rem;
@@ -32,6 +37,29 @@ form input, form textarea{
     border-color: rgba(212, 212, 212, 0.325);
     color: #3b3a3a;
 }
+
 .footer p {
     color: #fff;
+}
+
+/* 📱 Mobile Responsive Fix */
+@media (max-width: 768px) {
+    .contact-container {
+        width: 90%; /* stretch closer to screen width */
+    }
+
+    .contact-container h4 {
+        font-size: 2.2rem; /* shrink heading */
+        text-align: center;
+    }
+
+    form {
+        max-width: 100%; /* allow form to expand */
+        padding: 2rem 1rem;
+    }
+
+    form input,
+    form textarea {
+        font-size: 1.2rem; /* slightly smaller fields */
+    }
 }
