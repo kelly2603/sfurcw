@@ -22,10 +22,10 @@ const Footer = () => {
                             <a href="https://discord.com/invite/XsfVH5xZgH" target="_blank" rel="noopener noreferrer">
                                 <FaDiscord size={30} />
                             </a>
-                            <a href="https://www.instagram.com/sfurobotics/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.instagram.com/ascension_robotics/" target="_blank" rel="noopener noreferrer">
                                 <FaInstagram size={30} />
                             </a>
-                            <a href="https://www.youtube.com/@sfurobotics" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.youtube.com/@ascension_robotics" target="_blank" rel="noopener noreferrer">
                                 <FaYoutube size={30} />
                             </a>
                         </div>

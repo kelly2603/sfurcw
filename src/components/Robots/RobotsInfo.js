@@ -1,9 +1,9 @@
 import React from 'react'
 import "./RobotsInfoStyles.css"
 import Img1 from "./robots_images/IMG_2346.jpg"
-import StandardImg from "./robots_images/IMG_5438.jpg"
-import HeroImg from "./robots_images/IMG_5444.jpg"
-import SentryImg from "./robots_images/IMG_5428.jpg"
+import StandardImg from "./robots_images/IMG_6720.jpg"
+import HeroImg from "./robots_images/IMG_6798.jpg"
+import SentryImg from "./robots_images/IMG_6802.jpg"
 
 const RobotsInfo = () => {
   return (
