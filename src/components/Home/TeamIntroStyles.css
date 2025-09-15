@@ -51,10 +51,22 @@
 .team-video-container .subtitle {
     color: #e9e2e2;
 }
-.video-container{
+.video-container {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    padding-top: 56.25%; /* 16:9 aspect ratio */
+    overflow: hidden;
+}
+
+.video-container iframe,
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-    max-width: 100%;
-    padding: 2rem;
+    border: none;
 }
 
 
@@ -72,7 +84,7 @@
     height: 13.5rem;
 }
 .skills-container img {
-    width: 100%;
+    width: 550px;
     height: 400px;
     object-fit: cover;
     }
@@ -87,11 +99,48 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
     justify-items: center;
-    gap: 0.5;
+    gap: 1rem;
 }
 .sp{
     text-align: center;
 }
 .sponsor-main-container {
     padding-bottom: 6rem;
+}
+@media (max-width: 768px) {
+     /* Intro section stacks vertically */
+  .RM-container {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+
+  .RM-container::before {
+    display: none; /* hide divider line on small screens */
+  }
+
+  /* Why Join section stacks vertically */
+  .skills-container {
+    grid-template-columns: 1fr;
+    row-gap: 3rem;
+  }
+
+  .skills-container p {
+    height: auto; /* let text expand naturally */
+  }
+
+  .skills-container img {
+    height: 300px; /* smaller images */
+    width: 400px;
+  }
+
+}  
+@media (max-width: 480px) {
+    .video-container {
+        padding: 1rem;
+    }
+
+    .skills-container img {
+        height: 150px;
+        width: 200px;
+    }
 }

@@ -5,9 +5,9 @@ import "./TeamIntroStyles.css";
 import Img1 from "./home_images/IMG_2375.jpg";
 import Img2 from "./home_images/IMG_2375.jpg";
 
-import Img3 from "./home_images/solidworks.JPG";
+import Img3 from "./home_images/robot.png";
 import Img4 from "./home_images/cnc.png";
-import Img5 from "./home_images/embeddedprog.png";
+import Img5 from "./home_images/programming.png";
 import Img6 from "./home_images/computervision.png";
 
 import Img7 from "./home_images/SolidWorks-Logo.png";
