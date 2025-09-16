@@ -92,14 +92,14 @@ const TeamIntro = () => {
                 <div className="PL-container col-container">
                     <h5>Embedded Programming</h5>
                     <p>
-                    The embedded controls team programs motor systems using STM32CubeIDE and deploys them onto custom controllers for smooth, precise swerve-drive movement. Engineers implement anti-jam routines and PID loops for consistent shooter performance, while also customizing the in-game overlay UI to give drivers real-time feedback during matches.
+                    The embedded controls team programs the robots using STM32CubeIDE and C programming. Our team makes custom CAN libraries and creates our own subfunctions that can be used globally across the robots for motor controls. We create optimized PIDS for unique motor situations and rapidly test code with robots on hand. Our controls team makes everything as easy as possible for the driver to control the robot, including individual buttons that turn on spin to win, have an automatic anti-jamming function for the projectile indexor, and have overheat protection to avoid damage. 
                     </p>
                     <img className="img" src={Img5} alt="Embedded Programming" />
                 </div>
                 <div className="PL-container col-container">
-                    <h5>Camera Vision</h5>
+                    <h5>Computer Vision</h5>
                     <p>
-                    The camera vision team develops machine learning models to detect robots and navigate complex environments. Trained over dozens of epochs, the system identifies enemy units, field locations, and key targets. Vision control enables automatic aiming, while autonomous navigation and shooting allow the Sentry robot to operate independently, having both defense and offense capabilities.
+                    The computer vision team develops custom machine learning detection models to track enemy units. These models enable the robots to aim at enemies on their own if necessary. The team also develops pathfinding algorithms for the sentry robot, allowing it to operate without human intervention by locating objects and the field using a LiDAR. Combined with embedded programming, the computer vision team can give drivers aim assist while they manually search for targets, sense robots where the camera might not be facing, and track down enemies and shoot them autonomously with the sentry robot.
                     </p>
                     <img className="img" src={Img6} alt="Camera Vision" />
                 </div>

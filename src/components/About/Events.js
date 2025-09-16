@@ -11,11 +11,11 @@ const Events = () => {
         <div class="event-card">
           <img src={RMLogoImg} alt="Robomaster Image" class="event-image" />
           <div class="event-content">
-            <h5 class="event-title">RoboMaster University Championship (RMUC)</h5>
-            <p class="event-description">The long awaited competition that we all work day and night for!</p>
+            <h5 class="event-title">2026 RoboMaster University League (RMUL)</h5>
+            {/* <p class="event-description">The long awaited competition that we all work day and night for!</p> */}
             <div class="event-details">
-              <span><strong>Time:</strong> June 22 - June 29, 2025</span>
-              <span><strong>Location:</strong> Colorado, US </span>
+              <span><strong>Time:</strong> Summer 2026</span>
+              <span><strong>Location:</strong> Indiana, US </span>
             </div>
           </div>
         </div>

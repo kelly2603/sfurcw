@@ -81,7 +81,7 @@
     padding-bottom: 4rem;
 }
 .skills-container p {
-    height: 13.5rem;
+    height: 16rem;
 }
 .skills-container img {
     width: 550px;
@@ -129,8 +129,9 @@
   }
 
   .skills-container img {
-    height: 363px; /* smaller images */
-    width: 500px;
+    width: 90%;
+    max-width: 100%;
+    height: auto;
   }
 
 }  
@@ -140,7 +141,8 @@
     }
 
     .skills-container img {
-        height: 218px;
-        width: 300px;
+        width: 90%;
+        max-width: 100%;
+        height: auto;
     }
 }

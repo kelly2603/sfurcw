@@ -31,7 +31,7 @@
     height: auto;    /* keep aspect ratio */
 }
 
-/* 📱 Mobile-friendly adjustments */
+/* Mobile-friendly adjustments */
 @media (max-width: 768px) {
     .r-container {
         grid-template-columns: 1fr; /* stack items vertically */
