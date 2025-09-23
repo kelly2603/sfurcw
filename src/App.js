@@ -5,6 +5,7 @@ import Home from "./routes/Home"
 import About from "./routes/About"
 import Robots from "./routes/Robots"
 import Contact from "./routes/Contact"
+import Sponsor from "./routes/Sponsor"
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/robots" element={<Robots />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/sponsor" element={<Sponsor />} />
       </Routes>
     </div>
   );

@@ -1,101 +1,105 @@
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    position: fixed;
-    width: 100%;
-    height: 75px;
-    z-index: 10;
-    background-color: #FF4D4D;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  height: 75px;
+  z-index: 10;
+  background-color: #FF4D4D;
 }
 
 .header a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .nav-menu {
-    display: flex;
+  display: flex;
+  gap: 1rem;
 }
 
 .nav-menu li {
-    padding: 0 1rem;
+  list-style: none;
 }
 
 .nav-menu li a {
-    font-size: 1.5rem;
-    font-weight: 550;
-    text-decoration: none;
-    position: relative;
-    padding-bottom: 0.5rem;
-    color: #fff;
+  font-size: 1.5rem;
+  font-weight: 550;
+  text-decoration: none;
+  position: relative;
+  padding-bottom: 0.5rem;
+  color: #fff;
 }
 
 .nav-menu li a::after {
-    content: '';
-    position: absolute; 
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background-color: #fff; 
-    transform: scaleX(0);
-    transform-origin: bottom left;
-    transition: transform 0.3s ease;
+  content: '';
+  position: absolute; 
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: #fff; 
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.3s ease;
 }
 
-.nav-menu li a:hover::after {
-    transform: scaleX(1);  
-}
-
+.nav-menu li a:hover::after,
 .nav-menu li a.active::after {
-    transform: scaleX(1);
+  transform: scaleX(1);  
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    gap: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .logo h1 {
-    color: #fff;
+  color: #fff;
 }
 
 .logo-img {
-    width: auto;
-    height: 50px;
-    padding-bottom: 0.2rem;
+  width: auto;
+  height: 50px;
+  padding-bottom: 0.2rem;
 }
 
-/* 📱 Mobile responsive styles */
+/* Hamburger button */
+.hamburger {
+  display: none;
+  font-size: 2rem;
+  color: #fff;
+  cursor: pointer;
+  z-index: 20;
+}
+
+/* 📱 Mobile styles */
 @media (max-width: 768px) {
-    .header {
-        flex-direction: column;   /* stack logo + nav */
-        height: auto;             /* allow flexible height */
-        padding: 0.5rem 1rem;
-    }
+  .hamburger {
+    display: block;
+  }
 
-    .logo h1 {
-        font-size: 1.4rem; /* smaller logo text */
-    }
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff4d4d;
+    width: 100%;
+    height: 100vh;
+    gap: 2rem;
+    transition: right 0.3s ease-in-out;
+  }
 
-    .logo-img {
-        height: 40px; /* shrink logo image */
-    }
+  .nav-menu.active {
+    right: 0;
+  }
 
-    .nav-menu {
-        flex-direction: column;  /* stack nav items */
-        width: 100%;
-        text-align: center;
-        margin-top: 0.5rem;
-    }
-
-    .nav-menu li {
-        padding: 0.5rem 0;
-    }
-
-    .nav-menu li a {
-        font-size: 1.2rem;
-    }
+  .nav-menu li a {
+    font-size: 1.8rem;
+  }
 }
