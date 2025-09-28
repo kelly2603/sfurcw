@@ -10,8 +10,6 @@ import Img4 from "./home_images/cnc.png";
 import Img5 from "./home_images/programming.png";
 import Img6 from "./home_images/computervision.png";
 
-import Img7 from "./home_images/SolidWorks-Logo.png";
-import Img8 from "./home_images/Altium___Black_Logo.jpg";
 
 const TeamIntro = () => {
   return (
@@ -105,30 +103,6 @@ const TeamIntro = () => {
                 </div>
             </div>
             <a href="https://forms.gle/92ASYhvcLMh2gy2E7" target="_blank" rel="noopener noreferrer" className="btn">Join Now</a>
-        </div>
-
-        {/* ================ Sponsors section =============== */}
-        <div className="section-container sponsor-main-container center">
-            <h4>Our Sponsors</h4>
-            <p className="subtitle">Email us at sfurc@sfu.ca to become the first to put your name here</p>
-            {/* <div className="sponsors-container">
-                <div className="sp">
-                    <a href="https://humaninmotion.com/" target="_blank">
-                        <img src={Img6} alt="HumanInMotion" style={{ width: "300px", height: "auto" }} />
-                    </a>
-                </div>
-                <div className="sp">
-                    <a href="https://www.solidworks.com/" target="_blank">
-                        <img src={Img7} alt="SolidWorks" style={{ width: "300px", height: "auto" }} />
-                    </a>
-                </div>
-                <div className="sp">
-                    <a href="https://www.solidworks.com/" target="_blank">
-                        <img src={Img8} alt="Altium" style={{ width: "300px", height: "auto" }} />
-                    </a>
-                </div>
-            </div> */}
-            {/* <button className="btn">Sign up to be one</button> */}
         </div>
     </div>
   )

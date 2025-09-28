@@ -1,6 +1,6 @@
 import "./HeroImgStyles.css";
 import React from "react";
-import Img1 from "./home_images/IMG_2352.jpg";
+import Img1 from "./home_images/Goated Robot Pics.png";
 
 const HeroImg = () => {
     return (

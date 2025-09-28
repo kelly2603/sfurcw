@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
+import Sponsors from '../components/Sponsor/Sponsors'
 import Footer from "../components/Footer"
-// import HeroImg2 from "../components/HeroImg2"
 // import Img1 from "../components/Contact/contact_images/IMG_9670.jpg"
 
 const Sponsor = () => {
@@ -9,7 +9,7 @@ const Sponsor = () => {
     <div>
         <Navbar />
         {/* <HeroImg2 heading="SPONSOR" image={Img1}/> */}
-
+        <Sponsors />
         <Footer />
     </div>
   )

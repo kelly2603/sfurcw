@@ -5,7 +5,7 @@ import Home from "./routes/Home"
 import About from "./routes/About"
 import Robots from "./routes/Robots"
 import Contact from "./routes/Contact"
-// import Sponsor from "./routes/Sponsor"
+import Sponsor from "./routes/Sponsor"
 
 
 function App() {

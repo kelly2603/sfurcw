@@ -10,6 +10,10 @@
 body {
   background: #fcfbfb;
 }
+.center{
+    align-items: center;
+    text-align: center;
+}
 .section-container{
   width: 90%;
   margin: auto;
