@@ -66,7 +66,7 @@ const Sponsors = () => {
                     </a>
                 </div>
             </div>
-            <a href="https://donate.sfu.ca/page/149582/donate/1" target="_blank" rel="noopener noreferrer" className="btn">Donate</a>
+            <a href="https://donate.sfu.ca/page/149582/donate/1" target="_blank" rel="noopener noreferrer" className="btn">Donate Now</a>
 
         </div>
 
