@@ -1,6 +1,6 @@
 import "./FooterStyles.css";
 import React from "react";
-import {FaDiscord, FaInstagram, FaYoutube} from "react-icons/fa";
+import {FaDiscord, FaInstagram, FaYoutube, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
     return(
@@ -8,13 +8,11 @@ const Footer = () => {
             <div className="footer-container">
                 <div className="contacts-container">
                     <div className="left">
-                        <div>
-                            <div className="location">
-                                <p>13450 102 Ave #250, <br></br> Surrey, BC, V3T 0A3</p>
-                            </div>
-                            <div className="email">
-                                <p>sfurc@sfu.ca</p>
-                            </div>
+                        <div className="location">
+                            <p>10285 University Dr <br></br> Surrey, BC V3T 0N1</p>
+                        </div>
+                        <div className="email">
+                            <p>sfurc@sfu.ca</p>
                         </div>
                     </div>
                     <div className="right">
@@ -28,9 +26,11 @@ const Footer = () => {
                             <a href="https://www.youtube.com/@ascension_robotics" target="_blank" rel="noopener noreferrer">
                                 <FaYoutube size={30} />
                             </a>
+                            <a href="https://www.linkedin.com/company/ascension-robotics/" target="_blank" rel="noopener noreferrer">
+                                <FaLinkedin size={30} />
+                            </a>
                         </div>
                     </div>
-                    
                 </div>
                 <div className="copyright-container">
                     <p> &copy; Copyright 2025 Simon Fraser Robotics Club</p>

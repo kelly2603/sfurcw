@@ -6,6 +6,9 @@
   margin: 0;
   padding: 0;
 }
+html, body, #root {
+  height: 100%;
+}
 
 body {
   background: #fcfbfb;
@@ -49,7 +52,7 @@ h5{
   padding: 0.3rem;
 }
 p {
-  color: #505050;
+  /* color: #505050; */
   font-size: 1.13rem;
   padding: 0.3rem;
 }

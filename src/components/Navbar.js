@@ -2,7 +2,8 @@ import "./NavbarStyles.css";
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 
-import Img1 from "./images/Fluff_S_NBG_White.png";
+import fluff_img from "./images/Fluff_S_NBG_White.png";
+import asn_img from "./images/asn_white_NBG_crp.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,8 +14,8 @@ const Navbar = () => {
     <div className="header">
       <Link to="/">
         <div className="logo">
-          <img className="logo-img" src={Img1} alt="Img1" />
-          <h1>ASN</h1>
+          <img className="logo-img" src={asn_img} alt="asn" />
+          <h1>ASCENSION</h1>
         </div>
       </Link>
 
@@ -41,11 +42,16 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li>
+          <NavLink to="/sponsor" exact="true" activeclassname="active">
+            Sponsors
+          </NavLink>
+        </li>
+        <li>
           <NavLink to="/contact" exact="true" activeclassname="active">
             Contact Us
           </NavLink>
         </li>
-        <li>
+        {/* <li>
           <a
             href="https://donate.sfu.ca/page/149582/donate/1"
             target="_blank"
@@ -53,7 +59,7 @@ const Navbar = () => {
           >
             Donate
           </a>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

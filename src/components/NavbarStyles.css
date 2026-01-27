@@ -16,7 +16,7 @@
 
 .nav-menu {
   display: flex;
-  gap: 1rem;
+  gap: 1.6rem;
 }
 
 .nav-menu li {
@@ -58,12 +58,13 @@
 
 .logo h1 {
   color: #fff;
+  font-size: 1.8rem;
+  padding-top: 0.5rem;
 }
 
 .logo-img {
   width: auto;
-  height: 50px;
-  padding-bottom: 0.2rem;
+  height: 70px;
 }
 
 /* Hamburger button */

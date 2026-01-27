@@ -1,18 +1,73 @@
 .footer {
-    background-color: #000000;
+    background-color: #161616;
+    width: 100%;
+    height: auto;
 }
 
 .footer-container {
-    width: 80%;
+    width: 75%;
     height: auto;
     margin: auto;
 }
+
+
+.left {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding: 1rem;
+}
+
+
+.right {
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    padding: 1rem;
+}
+
 
 .contacts-container {
     display: grid;
     padding: 2rem;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
+}
+.contacts-container p {
+    line-height: 30px;
+    font-size: 1.2rem;
+}
+
+.social {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.copyright-container p {
+    display: flex;
+    justify-content: center;
+    font-size: 1.1rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.footer .social a {
+    color: #FF4D4D; 
+}
+
+.footer .contacts-container p {
+  color: #FF4D4D;
+}
+
+.footer .copyright-container p {
+  color: #616060;
 }
 
 /* Mobile fix */
@@ -31,45 +86,6 @@
     .contacts-container p {
         font-size: 1rem; /* slightly smaller text on mobile */
         line-height: 24px;
+        color: #FF4D4D;
     }
-}
-
-.left {
-    height: 100%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-}
-
-.social {
-    display: flex;
-    gap: 1rem;
-    color: #FF4D4D; 
-    flex-wrap: wrap; /* prevent overflow on mobile */
-}
-
-.right {
-    height: 100%;
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 1rem;
-}
-
-.contacts-container p {
-    line-height: 30px;
-    font-size: 1.2rem;
-    color: #FF4D4D;
-}
-
-.copyright-container p {
-    color: #616060;
-    display: flex;
-    justify-content: center;
-    font-size: 0.9rem;
-    text-align: center;
-    padding: 1rem 0;
 }
