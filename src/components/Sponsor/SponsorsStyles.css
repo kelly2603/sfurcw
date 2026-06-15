@@ -1,13 +1,13 @@
 .sponsors-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.7rem;
   padding-bottom: 3rem;
 }
 
 .sp {
   width: 100%;
-  height: 200px;               /* equal height for all cards */
+  height: 250px;               /* equal height for all cards */
   display: flex;
   align-items: center;
   justify-content: center;

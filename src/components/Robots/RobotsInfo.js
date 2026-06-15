@@ -39,17 +39,15 @@ const RobotsInfo = () => {
             </div>
 
             {/* Sentry robot */}
-            <div className='robot-container'>
-              <div className='r-container'>
-                <div className='desc-container'> 
-                  <h4>Sentry Robot</h4>
-                  <p>
-                    The Sentry is a fully mobile, autonomous robot that can patrol key areas using pathfinding algorithms and computer vision. Equipped with cameras, LiDAR, and dual 17 mm launchers, it can detect, track, and engage enemy robots without human input. Its smart targeting and real-time responsiveness make it a key asset in defense, freeing human teammates to focus on offense and strategy. Having a strong sentry is most of the time what separates the top teams from the rest, as in the 3v3 game, the sentry is a third of your team and vital for holding out contested areas.
-                  </p>
-                </div>
-                <div className='image-container'>
-                  <img className="img" src={SentryImg} alt="Sentry" />
-                </div>
+            <div className='r-container'>
+              <div className='desc-container'> 
+                <h4>Sentry Robot</h4>
+                <p>
+                  The Sentry is a fully mobile, autonomous robot that can patrol key areas using pathfinding algorithms and computer vision. Equipped with cameras, LiDAR, and dual 17 mm launchers, it can detect, track, and engage enemy robots without human input. Its smart targeting and real-time responsiveness make it a key asset in defense, freeing human teammates to focus on offense and strategy. Having a strong sentry is most of the time what separates the top teams from the rest, as in the 3v3 game, the sentry is a third of your team and vital for holding out contested areas.
+                </p>
+              </div>
+              <div className='image-container'>
+                <img className="img" src={SentryImg} alt="Sentry" />
               </div>
             </div>
 
@@ -67,17 +65,15 @@ const RobotsInfo = () => {
             </div>
 
             {/* Dart System */}
-            <div className='robot-container'>
-              <div className='r-container'>
-                <div className='desc-container'> 
-                  <h4>Dart System (In Development)</h4>
-                  <p>
-                  The Dart System is comprised of two components: The Dart Launcher and the Dart Projectile. The launcher uses flywheels or stored kinetic energy to launch a dart to impact the enemy's outposts. The Dart runs an on-board guidance system using cameras and actuators for automatic target tracking. There are four darts available to fire per match, and two opportunities to fire: 30 seconds after the match starts, and the second after 4 minutes. A successful hit on the enemy's outpost will blind their robots for up to 15 seconds, offering openings for our robots to engage in battle.
-                  </p>
-                </div>
-                <div className='image-container'>
-                  <img className="img" src={DartImg} alt="Dart System" />
-                </div>
+            <div className='r-container'>
+              <div className='desc-container'> 
+                <h4>Dart System (In Development)</h4>
+                <p>
+                The Dart System is comprised of two components: The Dart Launcher and the Dart Projectile. The launcher uses flywheels or stored kinetic energy to launch a dart to impact the enemy's outposts. The Dart runs an on-board guidance system using cameras and actuators for automatic target tracking. There are four darts available to fire per match, and two opportunities to fire: 30 seconds after the match starts, and the second after 4 minutes. A successful hit on the enemy's outpost will blind their robots for up to 15 seconds, offering openings for our robots to engage in battle.
+                </p>
+              </div>
+              <div className='image-container'>
+                <img className="img" src={DartImg} alt="Dart System" />
               </div>
             </div>
 

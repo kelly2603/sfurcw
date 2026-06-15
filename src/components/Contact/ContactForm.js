@@ -8,12 +8,17 @@ const ContactForm = () => {
             <h4>Let's get in touch</h4>
             <div className="form-container">
               <form action="https://formspree.io/f/xvgbnkyv" method="POST">
-                <label>Your Name</label>
-                <input type="text" name="name" required />
-
-                <label>Email</label>
-                <input type="email" name="email" required />
-
+                <div className="form-row">
+                  <div className="form-group">
+                    <label>Your Name</label>
+                    <input type="text" name="name" required />
+                  </div>
+                  <div className="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" required />
+                  </div>
+                </div>
+                
                 <label>Subject</label>
                 <input type="text" name="subject" required />
 
