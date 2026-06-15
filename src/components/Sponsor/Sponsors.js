@@ -8,6 +8,9 @@ import man_img from "./sponsor_images/manifold_img.png"
 import ram_img from "./sponsor_images/rampxEnegery_img.png"
 import mse_img from "./sponsor_images/sfu_mse_img.png"
 import fas_img from "./sponsor_images/sfu_fas_img.png"
+import hoto_img from "./sponsor_images/hoto_img.png"
+import asc_img from "./sponsor_images/asc_img.jpg"
+import kac1_img from "./sponsor_images/kac1_img.png"
 
 
 const Sponsors = () => {
@@ -63,6 +66,24 @@ const Sponsors = () => {
                 <div className="sp">
                     <a href="https://www.sfu.ca/fas.html" target="_blank">
                         <img src={fas_img} alt="SFUFAS" />
+                    </a>
+                </div>
+
+                <div className="sp">
+                    <a href="https://hototools.com/" target="_blank">
+                        <img src={hoto_img} alt="HOTO" />
+                    </a>
+                </div>
+
+                <div className="sp">
+                    <a href="https://www.astraconcrete.net/" target="_blank">
+                        <img src={asc_img} alt="AstraConcreteLTD" />
+                    </a>
+                </div>
+
+                <div className="sp">
+                    <a href="https://www.kadantcarmanah.com/en" target="_blank">
+                        <img src={kac1_img} alt="KadantCarmanah" />
                     </a>
                 </div>
             </div>
